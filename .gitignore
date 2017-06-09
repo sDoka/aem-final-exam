@@ -4,9 +4,8 @@ ui.apps/target
 core/target
 
 # Idea content
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/*.iws
+.idea
+*.iml
 
 # Windows image file caches
 Thumbs.db
