@@ -1,0 +1,24 @@
+.eventsview-container {
+    position: relative;
+}
+.google-map-container {
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.event-list {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 15px 0px;
+}
+.event-list .row {
+    margin-bottom: 10px;
+}
+.btn-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

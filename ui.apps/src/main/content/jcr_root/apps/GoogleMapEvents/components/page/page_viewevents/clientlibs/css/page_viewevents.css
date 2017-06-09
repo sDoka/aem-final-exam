@@ -1,0 +1,6 @@
+.sidebar-component-container {
+    margin-top: 15px;
+    max-height: 300px;
+    max-width: 100%;
+    overflow: scroll;
+}

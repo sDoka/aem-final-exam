@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="ru"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="nt:folder">
+    <add-and-edit-events-via-default-component-functionality
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Edit the events by adding and editing the components below"
+        sling:message="Редактируйте события через добавление/редактирование компонентов по умолчанию"/>
+    <address
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Address"
+        sling:message="Адрес"/>
+    <also
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Also"
+        sling:message="Также"/>
+    <city
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="City"
+        sling:message="Город"/>
+    <country
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Country"
+        sling:message="Страна"/>
+    <description
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Description"
+        sling:message="Описание"/>
+    <edit-event-component
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Edit the component to initialize the Event entry."
+        sling:message="Редактируйте компонент для инициализации записи События."/>
+    <edit-events
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Edit events"
+        sling:message="Редактировать события"/>
+    <state
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="State"
+        sling:message="Область"/>
+    <the-map-should-be-here-somewhere
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="Here is where the map is supposed to go"
+        sling:message="Где-то здесь должна быть карта"/>
+</jcr:root>

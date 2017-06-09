@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Event"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Widget"
+            anchor="100%"
+            title="General settings"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./jcr:title"
+                    xtype="textfield"/>
+                <description
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Description"
+                    name="./jcr:description"
+                    xtype="textarea"/>
+            </items>
+        </tab1>
+        <tab2
+            jcr:primaryType="cq:Widget"
+            anchor="100%"
+            title="Event address"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <streetAddress
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Street address"
+                    name="./streetAddress"
+                    xtype="textfield"/>
+                <city
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="City"
+                    name="./city"
+                    xtype="textfield"/>
+                <state
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="State"
+                    name="./state"
+                    xtype="textfield"/>
+                <country
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Country"
+                    name="./country"
+                    xtype="textfield"/>
+            </items>
+        </tab2>
+    </items>
+</jcr:root>

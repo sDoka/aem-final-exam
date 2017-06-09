@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/GoogleMapEvents"
+        cq:lastModified="{Date}2017-06-09T15:48:23.514+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/GoogleMapEvents/templates/page_viewevents"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="GoogleMapEvents Editor En"
+        sling:resourceType="GoogleMapEvents/components/page/page_editevents">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <eventedit
+                jcr:created="{Date}2017-06-09T15:46:28.675+03:00"
+                jcr:createdBy="admin"
+                jcr:description="Это первое событие на карте"
+                jcr:lastModified="{Date}2017-06-09T15:47:08.368+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Первое событие"
+                sling:resourceType="GoogleMapEvents/components/content/eventedit"
+                city="Санкт-Петербург"
+                country="Россия"
+                streetAddress="Невский проспект 10"/>
+            <eventedit_1669321078
+                jcr:created="{Date}2017-06-09T15:46:33.874+03:00"
+                jcr:createdBy="admin"
+                jcr:description="Это второе событие на Google карте"
+                jcr:lastModified="{Date}2017-06-09T15:47:47.963+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Это второе событие"
+                sling:resourceType="GoogleMapEvents/components/content/eventedit"
+                city="Санкт-Петербург"
+                country="Россия"
+                streetAddress="Станция метро Невский Проспект"/>
+            <eventedit_814479978
+                jcr:created="{Date}2017-06-09T15:46:36.883+03:00"
+                jcr:createdBy="admin"
+                jcr:description="Это третье событие на Google карте"
+                jcr:lastModified="{Date}2017-06-09T15:48:23.511+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Это третье событие"
+                sling:resourceType="GoogleMapEvents/components/content/eventedit"
+                city="Санкт-Петербург"
+                country="Россия"
+                streetAddress="Невский проспект 14"/>
+        </par>
+    </jcr:content>
+</jcr:root>

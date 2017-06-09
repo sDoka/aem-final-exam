@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Page">
+    <clientlibs/>
+    <jcr:content
+            cq:doctype="html_5"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Google Map events Design"
+            sling:resourceType="wcm/core/components/designer">
+        <page_viewevents jcr:primaryType="nt:unstructured">
+            <sidebar-par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[foundation/components/text,foundation/components/image,GoogleMapEvents/components/content/eventsview]"/>
+        </page_viewevents>
+        <page_editevents jcr:primaryType="nt:unstructured">
+            <par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys"
+                    components="[GoogleMapEvents/components/content/eventedit]"/>
+        </page_editevents>
+    </jcr:content>
+</jcr:root>

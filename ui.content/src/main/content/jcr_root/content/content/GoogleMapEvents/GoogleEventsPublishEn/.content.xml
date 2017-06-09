@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/GoogleMapEvents"
+        cq:lastModified="{Date}2017-06-09T15:50:31.252+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/GoogleMapEvents/templates/page_editevents"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Google Events Publish En"
+        sling:resourceType="GoogleMapEvents/components/page/page_viewevents">
+        <sidebar-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <image
+                jcr:created="{Date}2017-06-09T15:49:32.522+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-06-09T15:49:43.995+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/projects/outdoors/cover"/>
+        </sidebar-par>
+        <eventsview
+            jcr:lastModified="{Date}2017-06-09T15:50:31.250+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Google Maps Events"
+            sling:resourceType="google-map-events/components/content/eventsview"
+            eventsPath="/content/GoogleMapEvents/GoogleMapEventsEditorEn"
+            googleMapAPIKey="AIzaSyDXvhiXtfwljiFY8NA5d8aCSSwkRu8xG9Q"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="RSS Post"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Widget"
+            anchor="100%"
+            title="General settings"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./jcr:title"
+                    xtype="textfield"/>
+                <googleMapAPIKey
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="API key for using Google Map service"
+                    name="./googleMapAPIKey"
+                    xtype="textfield"/>
+                <eventsPath
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Path to Event Editor page"
+                    name="./eventsPath"
+                    xtype="pathfield"/>
+            </items>
+        </tab1>
+    </items>
+</jcr:root>

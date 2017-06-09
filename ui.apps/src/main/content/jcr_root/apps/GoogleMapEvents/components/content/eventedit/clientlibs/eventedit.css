@@ -1,0 +1,14 @@
+.show-grid {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.show-grid .row:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+.show-grid .row > * {
+    padding: 10px 15px;
+}
+.show-grid .row > *:not(:last-child) {
+    border-right: 1px solid #ddd;
+}

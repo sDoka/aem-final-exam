@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="A Google Map and a list of events, both on it and as a separate list"
+    jcr:primaryType="cq:Component"
+    jcr:title="Google Map events view"
+    allowedParents="[[*/parsys]]"
+    componentGroup="General"/>
