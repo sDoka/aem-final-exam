@@ -20,7 +20,6 @@
         <cq:include path="sidebar-par" resourceType="foundation/components/parsys"/>
 
         <div class="sidebar-component-container">
-            <cq:include path="rsspost" resourceType="test-multimodule-content-package/components/rsspost"/>
         </div>
     </div>
 </div>

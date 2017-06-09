@@ -23,7 +23,7 @@
             <hr>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Contact us at: www.idgaf.com</p>
+                    <p>Contact us at: www.somesite.com</p>
                 </div>
             </div>
         </footer>

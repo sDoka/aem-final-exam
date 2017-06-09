@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://C:\Work\AEM\GitHub\AemFinalExam\core\core.iml" filepath="C:\Work\AEM\GitHub\AemFinalExam\core\core.iml" />
       <module fileurl="file://$PROJECT_DIR$/google-map-events.iml" filepath="$PROJECT_DIR$/google-map-events.iml" />
       <module fileurl="file://$PROJECT_DIR$/ui.apps/google-map-events.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/google-map-events.ui.apps.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/google-maps-events.core.iml" filepath="$PROJECT_DIR$/core/google-maps-events.core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ui.apps/ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/ui.apps.iml" />
+      <module fileurl="file://C:\Work\AEM\GitHub\AemFinalExam\ui.apps\ui.apps.iml" filepath="C:\Work\AEM\GitHub\AemFinalExam\ui.apps\ui.apps.iml" />
       <module fileurl="file://$PROJECT_DIR$/ui.content/ui.content.iml" filepath="$PROJECT_DIR$/ui.content/ui.content.iml" />
     </modules>
   </component>
